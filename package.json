@@ -1,0 +1,50 @@
+{
+  "name": "waha-node",
+  "version": "1.0.0",
+  "description": "Unofficial WhatsApp HTTP API (WAHA) Node.js Client - Complete implementation of WAHA API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "waha",
+    "whatsapp",
+    "api",
+    "client",
+    "node",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Teguh Rijanandi <teguhrijanandi02@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teguh02/waha-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teguh02/waha-node/issues"
+  },
+  "homepage": "https://github.com/teguh02/waha-node#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
+
